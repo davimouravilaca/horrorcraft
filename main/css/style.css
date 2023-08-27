@@ -1,0 +1,203 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+/* Estilo global */
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #1d1d1d;
+  color: #ffffff;
+}
+
+a {
+  color: #00ff00;
+}
+
+ /* Estilo para o botão */
+ .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00ff00;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #00cc00;
+}       
+
+/* Cabeçalho */
+.header {
+  background-color: #1d1d1d;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: #00ff00;
+}
+
+/* Navegação */
+.navbar {
+  text-align: center;
+  background-color: #1d1d1d;
+  padding: 10px;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.navbar ul {
+  /*text-align: center;*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  text-align: center;
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #333333;
+}
+
+/* Conteúdo principal */
+.main-content {
+  margin: 20px;
+}
+
+/* Estilos para histórias */
+.story {
+  border: 1px solid #00ff00;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.story h2 {
+  font-size: 24px;
+  color: #ff00ff;
+}
+
+.story p {
+  font-size: 16px;
+}
+
+
+/* Rodapé */
+footer {
+  background-color: #1d1d1d;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.story-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.story-item ul,
+.story-item li {
+  background-color: #1d1d1d; /* Set your desired background color */
+}
+
+.story-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #1d1d1d; /* Set your desired background color */
+  border: 1px solid #ddd;
+}
+
+.story-item h2 {
+  margin-top: 0;
+}
+
+/* Seção de Formulários*/
+/* Formulário */
+.form-section {
+  max-width: 450px;
+  background-color: #242424;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.form-section h2 {
+  font-size: 24px;
+  color: #00ff00;
+  margin-bottom: 10px;
+}
+
+.form-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #1d1d1d;
+  color: #ffffff;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #00ff00;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #00cc00;
+}
+
