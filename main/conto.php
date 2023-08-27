@@ -1,6 +1,21 @@
-<?php require 'includes\header.php'?>   
+<?php 
+    require 'includes\header.php';
+    include 'conexao.php';
+?>
+<?php
+
+    $id = $_POST['id'] ?? '';
+    $sql = "SELECT * FROM contos WHERE id = $id";
+
+    $dados = mysqli_query($conn, $sql);
+
+    $linha = mysqli_fetch_assoc($dados);
+
+?>
+
     <div class="story">
-        <h2><?=$titulo?></h2>
-        <p><?=$conto?></p> 
-    </div>                  
-    <?php include 'includes\footer.php'?>  
+        <h2><?=$linha['titulo']?></h2>
+        <p><?=$linha['conto']?></p> 
+    </div>
+
+<?php require 'includes\footer.php'?>  

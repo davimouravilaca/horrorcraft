@@ -1,4 +1,5 @@
 <?php require 'includes\header.php'?>
+    
     <div class="form-section">
         <form action="envio.php" method="post">
             <div class="form-group">
@@ -16,4 +17,5 @@
         <input class="btn" type="submit" value="Enviar">
         </form>
     </div>
+    
     <?php include 'includes\footer.php'?> 

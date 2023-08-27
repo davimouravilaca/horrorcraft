@@ -1,3 +1,7 @@
+<?php 
+  include "functions.php";
+  $login = FALSE;
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -15,8 +19,8 @@
     <div class="navbar" >
     <ul>
       <li><a class="active" href="index.php">Início</a></li>
-      <li><a href="#contos">Histórias</a></li>
-      <li><a href="#autores">Autores</a></li>
+      <li><a href="historias.php">Histórias</a></li>
+      <li><a href="#perfil"><?php logado($login)?></a></li>
       <li><a href="upload.php">Fazer Upload</a></li>
     </ul>
   </div>  
