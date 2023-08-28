@@ -1,6 +1,6 @@
 <?php 
     require 'includes\header.php';
-    include 'conexao.php';
+    include 'includes\conexão.php';
 ?>
 <?php
 
@@ -12,10 +12,12 @@
     $linha = mysqli_fetch_assoc($dados);
 
 ?>
-
+    <div class="container">
     <div class="story">
         <h2><?=$linha['titulo']?></h2>
         <p><?=$linha['conto']?></p> 
     </div>
+    </div>
 
+    <p style="text-align:center">Você chegou ao fim dessa história. Que tal ver o que mais tem de especial no seu feed? <a class="a" href="index.php">Vamos!</a></p>
 <?php require 'includes\footer.php'?>  

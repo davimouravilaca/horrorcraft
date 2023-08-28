@@ -5,7 +5,7 @@ function logado($login) {
         return TRUE;
     }
     else {
-        echo "Cadastrar";
+        echo "Login";
     }
 }
 ?>

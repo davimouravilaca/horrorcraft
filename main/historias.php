@@ -1,6 +1,4 @@
-<?php include 'includes\header.php';
-      include 'includes\getid.php';
-?>
+<?php include 'includes\header.php'?>
 
 <div class='container'>
 <?php
@@ -12,8 +10,6 @@
     
   $contador = 0; // Inicialize o contador
 
-  $id = $_POST['id'] ?? '';
-
   while ($linha = mysqli_fetch_assoc($dados)) {
     if ($contador < 15) {
       $historias[] = array(
@@ -22,6 +18,7 @@
         'resenha' => $linha['resenha'],
         'conto' => $linha['conto']
       );
+      $id = $linha['id'];
       $contador++; // Incrementa o contador
     } else {
       break; // Sai do loop depois de 3 histórias
@@ -33,7 +30,10 @@
             <li class='story-item'>
               <h2>{$historia['titulo']}</h2>
               <p>{$historia['resenha']}</p>
-              <a href='conto.php?$id'>Ler mais</a>
+              <form action='conto.php' method='post'>
+              <input type='hidden' name='id' id='id' value='{$historia['id']}'>
+              <input class=a type='submit' value='Ler mais'>
+            </form>
             </li>
           </ul>";
   }

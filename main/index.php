@@ -2,8 +2,8 @@
   require 'includes\header.php';
 ?>
 <div class="container">
-  <h1>Bem-vindo aos Contos de Terror</h1>
-  <p>Explore os contos assustadores que vão te deixar sem dormir! Escolha um dos contos abaixo para começar: <button class="btn" onclick="recarregarPagina()"><?="<tab>\u{1F3B2}"?></button></p>
+  <h1>Bem-vindo aos contos de terror</h1>
+  <p>Explore os causos assombrados que o povo conta! Escolha uma história abaixo para começar: <button class="btn" onclick="recarregarPagina()"><?="<tab>\u{1F3B2}"?></button></p>
   
 <?php
   require 'includes\conexão.php';
@@ -34,7 +34,10 @@
             <li class='story-item'>
               <h2>{$historia['titulo']}</h2>
               <p>{$historia['resenha']}</p>
-              <a href='#link'>Ler mais</a>
+              <form action='conto.php' method='post'>
+              <input type='hidden' name='id' id='id' value='{$historia['id']}'>
+              <input class=a type='submit' value='Ler mais'>
+            </form>
             </li>
           </ul>";
   }

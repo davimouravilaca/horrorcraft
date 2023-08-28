@@ -12,6 +12,21 @@ a {
   color: #00ff00;
 }
 
+.a {
+  background: none;
+  border: none;
+  color: #00ff00;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0; /* Opcional: remova o padding para ficar mais parecido com um link */
+  font: inherit; /* Opcional: use a fonte do elemento pai */
+}
+
+/* Estilização adicional para hover */
+.a:hover {
+  color: #009600;
+}
+
  /* Estilo para o botão */
  .btn {
   display: inline-block;
@@ -101,8 +116,11 @@ a {
 /* Rodapé */
 footer {
   background-color: #1d1d1d;
-  padding: 20px;
-  text-align: center;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 footer p {

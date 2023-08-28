@@ -8,8 +8,6 @@
       <meta charset="UTF-8">
       <title>Horrorcraft: Histórias de Terror</title>
       <link rel="stylesheet" href="css\style.css">
-      <style>
-      </style>
   </head>
 <body>
     <header>
@@ -18,9 +16,9 @@
     </header>
     <div class="navbar" >
     <ul>
-      <li><a class="active" href="index.php">Início</a></li>
-      <li><a href="historias.php">Histórias</a></li>
+      <li><a class="active" href="index.php">Inicio</a></li>
+      <li><a href="historias.php">Contos</a></li>
       <li><a href="#perfil"><?php logado($login)?></a></li>
-      <li><a href="upload.php">Fazer Upload</a></li>
+      <li><a href="upload.php">Upload</a></li>
     </ul>
   </div>  
