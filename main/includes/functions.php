@@ -1,11 +1,18 @@
 <?php 
-function logado($login) {
-    if ($login == TRUE) {
+function mostraOpcao ($login) {
+    if ($login) {
         echo "Perfil";
-        return TRUE;
-    }
-    else {
+    } else {
         echo "Login";
     }
+}
+
+function mostraLink($login) {
+    if ($login) {
+        $link = "perfil.php";
+    } else {
+        $link = "login.php";
+    }
+    return $link;
 }
 ?>

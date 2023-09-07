@@ -1,6 +1,7 @@
 <?php include 'includes\header.php'?>
 
 <div class='container'>
+<h2>Todos os contos:</h2>
 <?php
   require 'includes\conexão.php';
   $sql = "SELECT * FROM contos";

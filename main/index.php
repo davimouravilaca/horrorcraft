@@ -43,7 +43,7 @@
   }
 ?>
 
-<a href="historias.php">Ver mais</a>
+<a class="a" href="historias.php">Ver mais</a>
 
 <script>
     function recarregarPagina() {
