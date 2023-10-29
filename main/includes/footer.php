@@ -1,5 +1,5 @@
 <footer>
-    <p style="text-align:center">© <?=date('Y')?>. Zeagotl. Todos os direitos reservados.</p>
+    <p style="text-align:center">© <?=date('Y')?>. Star Software. Todos os direitos reservados.</p>
 </footer>
 </body>
 </html>
