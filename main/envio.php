@@ -1,7 +1,7 @@
-<?php require 'includes\header.php';
-        require 'includes\dateConf.php';
+<?php require 'includes/header.php';
+        require 'includes/dateConf.php';
 
-        include "includes\conexão.php";
+        include "includes/conexão.php";
         $titulo = $_POST['titulo'];
         $resenha = $_POST['resenha'];
         $conto = $_POST['conto'];
@@ -13,4 +13,4 @@
         if(mysqli_query($conn,$sql)){
             echo "História enviada com sucesso.";
         }
-        require 'includes\footer.php';
+        include 'includes/footer.php';

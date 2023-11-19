@@ -1,4 +1,4 @@
-<?php include "includes\header.php"?>
+<?php include "includes/header.php"?>
 
 <div class="form-section">
         <form action="cadastro_script.php" method="post">
@@ -18,4 +18,4 @@
     </form>
 </div>
 
-<?php include 'includes\footer.php'?>
+<?php include 'includes/footer.php'?>

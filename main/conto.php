@@ -1,6 +1,6 @@
 <?php 
-    require 'includes\header.php';
-    include 'includes\conexão.php';
+    require 'includes/header.php';
+    include 'includes/conexão.php';
 ?>
 <?php
 
@@ -20,4 +20,4 @@
     </div>
 
     <p style="text-align:center">Você chegou ao fim dessa história. Que tal ver o que mais tem de especial no seu feed? <a class="a" href="index.php">Vamos!</a></p>
-<?php require 'includes\footer.php'?>  
+<?php include 'includes/footer.php'?>  

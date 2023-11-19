@@ -1,12 +1,15 @@
 <?php
-  require 'includes\header.php';
+  ini_set('display_errors', 1);
+  ini_set('display_startup_errors', 1);
+  error_reporting(E_ALL);
+  require 'includes/header.php';
 ?>
 <div class="container">
   <h1>Bem-vindo aos contos de terror</h1>
   <p>Explore os causos assombrados que o povo conta! Escolha uma história abaixo para começar: <button class="btn" onclick="recarregarPagina()"><?="<tab>\u{1F3B2}"?></button></p>
   
 <?php
-  require 'includes\conexão.php';
+  require 'includes/conexão.php';
   $sql = "SELECT * FROM contos ORDER BY RAND()";
   $dados = mysqli_query($conn, $sql);
 
@@ -51,5 +54,5 @@
     }
 </script>
 
-<?php include 'includes\footer.php'?>                    
+<?php include 'includes/footer.php'?>                    
     
