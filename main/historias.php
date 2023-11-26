@@ -2,6 +2,7 @@
 
 <div class='container'>
     <h2>Todos os contos:</h2>
+    <!--Adicionar uma barra de pesquisa aqui-->
     <?php
     require 'includes/conexão.php';
 
@@ -49,8 +50,8 @@
     $proximo = min($tp, $pc + 1);
     if ($pc > 1) {
         echo " <a href='?pagina=$anterior'><- Anterior</a> ";
+        echo "|";
     }
-    echo "|";
     if ($pc < $tp) {
         echo " <a href='?pagina=$proximo'>Próxima -></a>";
     }

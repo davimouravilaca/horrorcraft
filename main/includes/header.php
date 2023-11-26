@@ -1,6 +1,7 @@
 <?php 
+  session_start();
   include "functions.php";
-  $login = $login_cookie = $_COOKIE['login'] ?? false;
+  $login = $_SESSION['login'] ?? false;
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">

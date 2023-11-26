@@ -1,7 +1,7 @@
 <?php 
 $server = "localhost";
-$user = "root";
-$pass = "";
+$user = "admin";
+$pass = "admin";
 $bd = "historias";
 
 if($conn = mysqli_connect($server, $user, $pass, $bd)){

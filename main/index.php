@@ -5,9 +5,9 @@
   require 'includes/header.php';
 ?>
 <div class="container">
-  <h1>Bem-vindo aos contos de terror</h1>
-  <p>Explore os causos assombrados que o povo conta! Escolha uma história abaixo para começar: <button class="btn" onclick="recarregarPagina()"><?="<tab>\u{1F3B2}"?></button></p>
-  
+  <h1>Histórias que o povo conta</h1>
+  <p>Explore os causos mais assombrados da internet. Escolha uma história abaixo para começar: <button class="btn" onclick="recarregarPagina()"><?="<tab><img src='img/dice.png' style='width: 15px'' alt='Refresh'>"?></button></p>
+
 <?php
   require 'includes/conexão.php';
   $sql = "SELECT * FROM contos ORDER BY RAND()";
