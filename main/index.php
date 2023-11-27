@@ -37,7 +37,7 @@
             <li class='story-item'>
               <h2>{$historia['titulo']}</h2>
               <p>{$historia['resenha']}</p>
-              <form action='conto.php' method='post'>
+              <form action='conto.php' method='get'>
               <input type='hidden' name='id' id='id' value='{$historia['id']}'>
               <input class=a type='submit' value='Ler mais'>
             </form>

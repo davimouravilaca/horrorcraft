@@ -4,7 +4,7 @@
 ?>
 <?php
 
-    $id = $_POST['id'] ?? '';
+    $id = $_GET['id'] ?? '';
     $sql = "SELECT * FROM contos WHERE id = $id";
 
     $dados = mysqli_query($conn, $sql);
