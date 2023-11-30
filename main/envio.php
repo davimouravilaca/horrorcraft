@@ -10,7 +10,7 @@ $_SESSION['form_submitted'] = true;
 $titulo = $_POST['titulo'];
 $resenha = $_POST['resenha'];
 $conto = $_POST['conto'];
-$autor = $_COOKIE['usuario'];
+$autor = $_SESSION['usuario'];
 $dataPubli = date('Y-m-d'); // Alteração aqui para o formato YYYY-MM-DD
 
 $sql = "INSERT INTO `contos` (`titulo`, `resenha`, `conto`, `autor`, `data_publicacao`) VALUES ('$titulo', '$resenha', '$conto', '$autor', '$dataPubli')";

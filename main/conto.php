@@ -15,6 +15,7 @@
     <div class="container">
     <div class="story">
         <h2><?=$linha['titulo']?></h2>
+        <span>by <?=$linha['autor']?></span>
         <p><?=$linha['conto']?></p> 
     </div>
     </div>

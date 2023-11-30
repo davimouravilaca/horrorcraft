@@ -1,13 +1,13 @@
 <?php include 'includes/header.php'; ?>
 
 <div class='container'>
-    <h2>Todos os contos:</h2>
-    <!-- TODO Adicionar uma barra de pesquisa aqui-->
+    <h2>Meus contos:</h2>
+    <!--TODO Adicionar uma barra de pesquisa aqui-->
     <?php
     require 'includes/conexão.php';
 
-    $sql = "SELECT * FROM contos";
-    $totalPorPag = 4;
+    $autor = mysqli_real_escape_string($conn, $_SESSION['usuario']);
+    $sql = "SELECT * FROM contos WHERE autor = '$autor'";    
 
     $pagina = isset($_GET['pagina']) ? $_GET['pagina'] : 1;
     $pc = max(1, $pagina);
@@ -59,3 +59,4 @@
 </div>
 
 <?php include 'includes/footer.php'; ?>
+

@@ -1,7 +1,5 @@
 <?php
 
-//TODO adicionar link para as historias publicadas do usuario com funcoes de update e delete. 
-
 include "includes/header.php";
 require 'includes/conexão.php';
 
@@ -33,7 +31,7 @@ if ($dadosUsuario) {
         $numHistorias = mysqli_num_rows($dadosContos);
 
         echo "
-                <h3>Número de histórias publicadas: $numHistorias</h3>
+                <h3>Número de histórias publicadas: <a href='meuscontos.php'>$numHistorias</a></h3>
               </div>";
     } else {
 
