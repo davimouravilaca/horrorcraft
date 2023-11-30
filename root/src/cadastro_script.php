@@ -1,7 +1,7 @@
 <?php
 // TODO criptografar senha antes de jogar no banco de dados
 
-include "includes/conexão.php";
+include "root/includes/conexão.php";
 
 $usuario = $_POST['usuario'];
 $senha = $_POST['senha'];

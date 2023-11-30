@@ -8,7 +8,7 @@
   <head>
       <meta charset="UTF-8">
       <title>Horrorcraft: Histórias de Terror</title>
-      <link rel="stylesheet" href="css\style.css">
+      <link rel="stylesheet" href="assets/css/style.css">
       <link rel="icon" href="https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-mono/128/Octopus-icon.png" width="128" height="128">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>

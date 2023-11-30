@@ -1,7 +1,7 @@
 <?php
 
 require 'includes/header.php';
-require 'includes/dateConf.php';
+require 'config/dateConf.php';
 
 include "includes/conexão.php";
 
@@ -11,7 +11,7 @@ $titulo = $_POST['titulo'];
 $resenha = $_POST['resenha'];
 $conto = $_POST['conto'];
 $autor = $_SESSION['usuario'];
-$dataPubli = date('Y-m-d'); // Alteração aqui para o formato YYYY-MM-DD
+$dataPubli = date('Y-m-d');
 
 $sql = "INSERT INTO `contos` (`titulo`, `resenha`, `conto`, `autor`, `data_publicacao`) VALUES ('$titulo', '$resenha', '$conto', '$autor', '$dataPubli')";
 

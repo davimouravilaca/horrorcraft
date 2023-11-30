@@ -1,7 +1,7 @@
 <?php
 
-include "includes/header.php";
-require 'includes/conexão.php';
+include "root/includes/header.php";
+require 'root/includes/conexão.php';
 
 if (!isset($_SESSION["usuario"])) {
     header("Location: login.php");

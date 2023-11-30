@@ -2,11 +2,11 @@
   ini_set('display_errors', 1);
   ini_set('display_startup_errors', 1);
   error_reporting(E_ALL);
-  require 'includes/header.php';
+  require 'root/includes/header.php';
 ?>
 <div class="container">
   <h1>Histórias que o povo conta</h1>
-  <p>Explore os causos mais assombrados da internet. Escolha uma história abaixo para começar: <button class="btn" onclick="recarregarPagina()"><?="<tab><img src='img/dice.png' style='width: 15px'' alt='Refresh'>"?></button></p>
+  <p>Explore os causos mais assombrados da internet. Escolha uma história abaixo para começar: <button class="btn" onclick="recarregarPagina()"><?="<tab><img src='assets/img/dice.png' style='width: 15px'' alt='Refresh'>"?></button></p>
 
 <?php
   require 'includes/conexão.php';
