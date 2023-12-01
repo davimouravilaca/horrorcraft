@@ -21,7 +21,7 @@
 
 Estou trabalhando ativamente em documentar e melhorar a organização das pastas e legibilidade do código para melhor experiencia de quem quiser contribuir com o desenvolvimento desse projeto.
 Por enquanto, se você deseja contribuir de alguma forma, sinta-se livre para abrir uma issue. :D 
-## Tecnologias Utilizadas:
+## Tecnologias Utilizadas 🛠️
 <div >
 <img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/76662862/dbbc299a-8356-45e4-9d2e-a6c21b4569cf" alt="php (elephpant)" title="php (elephpant)"/>
  <img width="50" src="https://user-images.githubusercontent.com/25181517/183896128-ec99105a-ec1a-4d85-b08b-1aa1620b2046.png" alt="MySQL" title="MySQL"/>
@@ -56,7 +56,117 @@ Por enquanto, se você deseja contribuir de alguma forma, sinta-se livre para ab
 </div>
 
 
-# TODO 🌳
+## TODO 🌳
 
 - Ultimas funções do CRUD (Update e delete).
 - Sanitizar inputs contra ataques de injeção SQL e Cross-Site Scripting (XSS). 
+- Sistema de favoritar
+
+# Como Instalar 🚀
+
+Como esta e uma aplicação full-stack que roda em servidor primeiramente é necessário atender alguns pré-requisitos como ter uma solução AMP (Apache, MySQL e PHP) instalada para simular um servidor local na sua máquina.
+
+## Pré-requisitos
+
+Antes de começar, certifique-se de ter os seguintes programas instalado em seu computador:
+
+- [PHP](https://www.php.net/) - Versão 8.1.2 ou superior
+- [MySQL](https://www.mysql.com/) - Versão 8.0.35 ou superior
+- [Servidor Apache](https://httpd.apache.org/) - Versão 2.4.52 ou superior
+
+Se você estiver usando Windows basta baixar o Xampp ou o Laragon: 
+
+[XAMPP](https://www.apachefriends.org/pt_br/download.html)
+[Laragon](https://laragon.org/download/index.html)
+
+### Instalação no Linux (base Ubuntu):
+
+```bash
+
+    # Atualize os repositorios
+    sudo apt update
+
+    # Instale o PHP
+    sudo apt install php8.1
+
+    # Instale o MySQL
+    sudo apt install mysql
+    sudo apt install mysql-server
+    sudo apt install php-mysql
+
+    # Instale o servidor Apache
+    sudo apt install apache2
+
+    # Atualize se necessário:
+    sudo apt update
+    sudo apt upgrade
+```
+```bash
+
+    # Verificar versoes instaladas
+    php -v
+    mysql --version
+    apache2 -v
+
+```
+
+## Passos de Instalação
+
+1. **Clone o repositório para a pasta do apache:**
+
+    **Para Windows:**
+
+    ```bash
+    git clone https://github.com/davimouravilaca/horrorcraft.git C:\\xampp\\htdocs
+    cd C:\\xampp\\htdocs\\horrorcraft
+    ```
+    **Para Linux:**
+
+    ```bash
+    git clone https://github.com/davimouravilaca/horrorcraft.git /var/www/html/horrorcraft
+    cd /var/www/html/horrorcraft
+    ```
+
+2. **Configure o banco de Dados MySQL:**
+
+    - Crie um banco de dados para o projeto.
+
+    ```sql
+    CREATE DATABASE historias;
+    ```
+
+    - Importe o esquema do banco de dados a partir do arquivo `database.sql`.
+
+    ```bash
+    mysql -u seu_usuario -p historias < /horrorcraft/main/database/database.sql
+    ```
+
+3. **Configuração do PHP:**
+
+    - Edite o arquivo `conexão.php` e insira suas credenciais do banco de dados se necessário.
+
+    A senha e usuário padrão são:
+    - **Usuário:** `admin@example.com`
+    - **Senha:** `senha123`    
+
+4. **Execute o Servidor Web:**
+
+    Inicie o servidor web para servir o projeto.
+
+    ```bash
+    sudo start service apache2
+    ```
+
+5. **Acesse o Projeto:**
+
+    Abra seu navegador e acesse [http://localhost/horrorcraft/main](http://localhost/horrorcraft/main).
+
+6. **Pronto!**
+
+    Se tudo houver corrido conforme planejado o sistema agora está instalado e em execução em seu ambiente local.
+
+Explore as funcionalidades e contribua para o desenvolvimento! Quaisquer dúvidas pode abrir uma issue ou enviar um email para:
+
+💌 davimouravilaca@gmail.com
+ 
+
