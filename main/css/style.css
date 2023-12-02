@@ -228,4 +228,59 @@ footer p {
   color: #ffffff;
 }
 
+input[type="radio"] {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #00cc00;
+  transition: background-color 0.3s ease;
+  outline: none;
+  cursor: pointer;
+}
 
+input[type="radio"]:checked {
+  background-color: #cfffcf;
+  border-color: #00cc00;
+}
+
+.theme-selection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; 
+}
+
+.theme-selection label {
+  font-size: 16px; 
+}
+
+.theme-selection input[type="radio"] {
+  margin-right: 5px;
+}
+
+textarea {
+  
+  resize: vertical; 
+  max-height: 240px;
+
+}
+
+.circulo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #333333
+}
+
+.circulo img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.circulo-centralizado {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}

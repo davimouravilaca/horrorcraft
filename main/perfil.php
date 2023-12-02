@@ -19,6 +19,11 @@ if ($dadosUsuario) {
 
     echo "<div class='form-section' >
             <h2 style='text-align:center'>Perfil do usuário:</h2>
+            <div class='circulo-centralizado'>
+            <div class='circulo'>
+            <img src='/horrorcraft/main/img/foto.png'>
+            </div>
+            </div>
             <h3>Nickname: $usuario</h3>
             <h3>Data de cadastro do usuário: $dataCadastro</h3>
           ";
@@ -31,8 +36,8 @@ if ($dadosUsuario) {
         $numHistorias = mysqli_num_rows($dadosContos);
 
         echo "
-                <h3>Número de histórias publicadas: <a href='meuscontos.php'>$numHistorias</a></h3>
-              </div>";
+                <h3>Histórias publicadas: <a href='meuscontos.php'>$numHistorias</a></h3>
+                ";
     } else {
 
         echo "Erro na consulta das histórias: " . mysqli_error($conn);
@@ -42,6 +47,10 @@ if ($dadosUsuario) {
     echo "Erro na consulta do usuário: " . mysqli_error($conn);
 }
 ?>
+<!-- TODO sistema de like e badges-->
+<h3>Histórias Favoritadas: </h3>
+<h3>Badges Conquistadas: </h3>
+</div>
 
 <div class="container" style="text-align: center">
     <form action="logout.php" method="post">
@@ -50,3 +59,4 @@ if ($dadosUsuario) {
 </div>
 
 <?php include 'includes/footer.php'; ?>
+
