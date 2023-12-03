@@ -14,6 +14,12 @@
                 <label for="senha">Senha:</label>
                 <input type="password" name="senha" id="senha" required>
             </div>
+            <div class="form-group">
+            <label for="checkbox" style="display: inline-block;">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            Declaro que aceito os <a id="termosLink" href="#">termos de serviço</a>
+            </label>
+            </div>
         <input class="btn" type="submit" value="Enviar">
     </form>
 </div>

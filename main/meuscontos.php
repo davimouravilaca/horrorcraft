@@ -1,16 +1,18 @@
 <?php include 'includes/header.php'; ?>
 
+
 <div class='container'>
     <h2>Meus contos:</h2>
     <!--TODO Adicionar uma barra de pesquisa aqui-->
     <?php
     require 'includes/conexão.php';
 
-    $autor = mysqli_real_escape_string($conn, $_SESSION['usuario']);
+    $autor =  $_SESSION['usuario'];
     $sql = "SELECT * FROM contos WHERE autor = '$autor'";    
 
     $pagina = isset($_GET['pagina']) ? $_GET['pagina'] : 1;
     $pc = max(1, $pagina);
+    $totalPorPag = 4;
 
     $inicio = ($pc - 1) * $totalPorPag;
 
