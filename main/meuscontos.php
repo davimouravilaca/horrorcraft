@@ -30,7 +30,7 @@
             'titulo' => $linha['titulo'],
             'resenha' => $linha['resenha'],
             'conto' => $linha['conto']
-        );
+        );Erro 403: Acesso negado
     }
 
     // Exibir cada história

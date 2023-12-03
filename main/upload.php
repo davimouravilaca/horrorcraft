@@ -1,5 +1,12 @@
 <?php require 'includes/header.php'?>
     
+    <?php
+    if (!isset($_SESSION["usuario"])){
+    header("location: error.php");
+    }
+    ?>
+
+
     <div class="form-section">
         <form action="envio.php" method="post">
             <div class="form-group">
