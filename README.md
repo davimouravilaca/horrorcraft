@@ -1,4 +1,4 @@
-<h1 align="center">
+![image](https://github.com/davimouravilaca/horrorcraft/assets/76662862/9551ed11-beff-4073-8fad-2d4ef38ffdc3)<h1 align="center">
     <a href="#">🔗 Horrorcraft</a>
 </h1>
 <p align="center"> Web-site para compartilhamento contos de terror sendo feito com PHP puro e banco de dados MySQL. </p>
@@ -46,11 +46,11 @@ Por enquanto, se você deseja contribuir de alguma forma, sinta-se livre para ab
     </li>
     <li>
       <h4>Sistema de upload de histórias para usuários autenticados.</h3>
-      <img src="https://github.com/davimouravilaca/horrorcraft/assets/76662862/1eaca219-eaf6-4bd8-92d6-a0cfb37d6097" alt="image" width="500">
+      <img src= "https://github.com/davimouravilaca/horrorcraft/assets/76662862/a9b0f05c-ff9f-4176-a503-abc8e37914d6" width="500"> 
     </li>
     <li>
       <h4>Sistema básico de perfil com CRUD e logout.</h3>
-      <img src="https://github.com/davimouravilaca/horrorcraft/assets/76662862/44b80877-a53c-4abd-9a12-a6960f38abdc" alt="image" width="500">
+      <img src="https://github.com/davimouravilaca/horrorcraft/assets/76662862/1a2c7443-6f9f-4ede-a082-8d8b429a5ef6" alt="image" width="500">
     </li>
   </ul>
 </div>
