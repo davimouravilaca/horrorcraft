@@ -76,8 +76,8 @@ Antes de começar, certifique-se de ter os seguintes programas instalado em seu 
 
 Se você estiver usando Windows basta baixar o Xampp ou o Laragon: 
 
-[XAMPP](https://www.apachefriends.org/pt_br/download.html)
-[Laragon](https://laragon.org/download/index.html)
+- [XAMPP](https://www.apachefriends.org/pt_br/download.html)
+- [Laragon](https://laragon.org/download/index.html)
 
 ### Instalação no Linux (base Ubuntu):
 
@@ -154,7 +154,7 @@ Se você estiver usando Windows basta baixar o Xampp ou o Laragon:
     Inicie o servidor web para servir o projeto.
 
     ```bash
-    sudo start service apache2
+    sudo systemctl start apache2
     ```
 
 5. **Acesse o Projeto:**
@@ -165,7 +165,7 @@ Se você estiver usando Windows basta baixar o Xampp ou o Laragon:
 
     Se tudo houver corrido conforme planejado o sistema agora está instalado e em execução em seu ambiente local.
 
-Explore as funcionalidades e contribua para o desenvolvimento! Quaisquer dúvidas pode abrir uma issue ou enviar um email para:
+Explore as funcionalidades e contribua para o desenvolvimento! Quaisquer dúvidas pode abrir uma issue ou subir um PR. Contato:
 
 💌 davimouravilaca@gmail.com
  
