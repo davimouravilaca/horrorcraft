@@ -1,5 +1,5 @@
-![image](https://github.com/davimouravilaca/horrorcraft/assets/76662862/9551ed11-beff-4073-8fad-2d4ef38ffdc3)<h1 align="center">
-    <a href="#">🔗 Horrorcraft</a>
+<h1 align="center">
+    <a href="#">🔗 Horrorcraft </a>
 </h1>
 <p align="center"> Web-site para compartilhamento contos de terror sendo feito com PHP puro e banco de dados MySQL. </p>
 
