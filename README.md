@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="#">🔗 Horrorcraft</a>
+    <a href="#">🔗 Horrorcraft </a>
 </h1>
 <p align="center"> Web-site para compartilhamento contos de terror sendo feito com PHP puro e banco de dados MySQL. </p>
 
@@ -46,11 +46,11 @@ Por enquanto, se você deseja contribuir de alguma forma, sinta-se livre para ab
     </li>
     <li>
       <h4>Sistema de upload de histórias para usuários autenticados.</h3>
-      <img src="https://github.com/davimouravilaca/horrorcraft/assets/76662862/1eaca219-eaf6-4bd8-92d6-a0cfb37d6097" alt="image" width="500">
+      <img src= "https://github.com/davimouravilaca/horrorcraft/assets/76662862/a9b0f05c-ff9f-4176-a503-abc8e37914d6" width="500"> 
     </li>
     <li>
       <h4>Sistema básico de perfil com CRUD e logout.</h3>
-      <img src="https://github.com/davimouravilaca/horrorcraft/assets/76662862/44b80877-a53c-4abd-9a12-a6960f38abdc" alt="image" width="500">
+      <img src="https://github.com/davimouravilaca/horrorcraft/assets/76662862/1a2c7443-6f9f-4ede-a082-8d8b429a5ef6" alt="image" width="500">
     </li>
   </ul>
 </div>
@@ -76,8 +76,8 @@ Antes de começar, certifique-se de ter os seguintes programas instalado em seu 
 
 Se você estiver usando Windows basta baixar o Xampp ou o Laragon: 
 
-[XAMPP](https://www.apachefriends.org/pt_br/download.html)
-[Laragon](https://laragon.org/download/index.html)
+- [XAMPP](https://www.apachefriends.org/pt_br/download.html)
+- [Laragon](https://laragon.org/download/index.html)
 
 ### Instalação no Linux (base Ubuntu):
 
@@ -154,7 +154,7 @@ Se você estiver usando Windows basta baixar o Xampp ou o Laragon:
     Inicie o servidor web para servir o projeto.
 
     ```bash
-    sudo start service apache2
+    sudo systemctl start apache2
     ```
 
 5. **Acesse o Projeto:**
@@ -165,7 +165,7 @@ Se você estiver usando Windows basta baixar o Xampp ou o Laragon:
 
     Se tudo houver corrido conforme planejado o sistema agora está instalado e em execução em seu ambiente local.
 
-Explore as funcionalidades e contribua para o desenvolvimento! Quaisquer dúvidas pode abrir uma issue ou enviar um email para:
+Explore as funcionalidades e contribua para o desenvolvimento! Quaisquer dúvidas pode abrir uma issue ou subir um PR. Contato:
 
 💌 davimouravilaca@gmail.com
  
