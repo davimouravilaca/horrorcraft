@@ -1,5 +1,11 @@
 <?php include 'includes/header.php'; ?>
 
+<?php
+    if (!isset($_SESSION["usuario"])){
+    header("location: error.php");
+    }
+?>
+
 
 <div class='container'>
     <h2>Meus contos:</h2>
@@ -12,7 +18,7 @@
 
     $pagina = isset($_GET['pagina']) ? $_GET['pagina'] : 1;
     $pc = max(1, $pagina);
-    $totalPorPag = 4;
+    $totalPorPag = 3;
 
     $inicio = ($pc - 1) * $totalPorPag;
 
@@ -30,18 +36,19 @@
             'titulo' => $linha['titulo'],
             'resenha' => $linha['resenha'],
             'conto' => $linha['conto']
-        );Erro 403: Acesso negado
+        );
     }
 
     // Exibir cada história
     foreach ($historias as $historia) {
         echo "<ul class='story-list'>
             <li class='story-item'>
-              <h2>{$historia['titulo']}</h2>
-              <p>{$historia['resenha']}</p>
-              <form action='conto.php' method='get'>
-              <input type='hidden' name='id' id='id' value='{$historia['id']}'>
-              <input class=a type='submit' value='Ler mais'>
+            <a class='edit-btn' href='#'>Editar</a>
+            <h2>{$historia['titulo']}</h2>
+            <p>{$historia['resenha']}</p>
+            <form action='conto.php' method='get'>
+            <input type='hidden' name='id' id='id' value='{$historia['id']}'>
+            <input class=a type='submit' value='Ler mais'>
             </form>
             </li>
           </ul>";

@@ -318,4 +318,13 @@ textarea {
   opacity: 1;
 }
 
+.edit-btn {
+  color: #ffffff;
+  text-decoration:none;
+  text-align: right;
+  float: right;
+  margin-bottom: 10px;
+}
+
+
 
