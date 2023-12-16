@@ -59,7 +59,9 @@
     $proximo = min($tp, $pc + 1);
     if ($pc > 1) {
         echo " <a href='?pagina=$anterior'><- Anterior</a> ";
+        if ($pc != $tp) {
         echo "|";
+    }
     }
     if ($pc < $tp) {
         echo " <a href='?pagina=$proximo'>Próxima -></a>";
