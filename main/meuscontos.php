@@ -43,7 +43,10 @@
     foreach ($historias as $historia) {
         echo "<ul class='story-list'>
             <li class='story-item'>
-            <a class='edit-btn' href='#'>Editar</a>
+            <form action='edit.php' method='post'>
+            <input type='hidden' name='id' id='id' value='{$historia['id']}'>
+            <input class='a edit-btn' type='submit' href='edit.php' value='Editar'>
+            </form>
             <h2>{$historia['titulo']}</h2>
             <p>{$historia['resenha']}</p>
             <form action='conto.php' method='get'>
