@@ -14,11 +14,11 @@
     require 'includes/conexão.php';
 
     $autor =  $_SESSION['usuario'];
-    $sql = "SELECT * FROM contos WHERE autor = '$autor'";    
+    $sql = "SELECT * FROM contos WHERE autor = '$autor' ORDER BY data_publicacao DESC";  
 
     $pagina = isset($_GET['pagina']) ? $_GET['pagina'] : 1;
     $pc = max(1, $pagina);
-    $totalPorPag = 3;
+    $totalPorPag = 4;
 
     $inicio = ($pc - 1) * $totalPorPag;
 

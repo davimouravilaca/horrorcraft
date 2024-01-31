@@ -44,6 +44,23 @@ a {
   background-color: #00cc00;
 }       
 
+ /* Estilo para o botão */
+ .btn-red {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-red:hover {
+  background-color: rgb(90, 0, 0);
+}    
+
 /* Cabeçalho */
 .header {
   background-color: #1d1d1d;

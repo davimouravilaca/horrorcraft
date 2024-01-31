@@ -16,9 +16,8 @@
     <div class="story">
         <h2><?=$linha['titulo']?></h2>
         <span>by <?=$linha['autor']?></span>
-        <p><?=$linha['conto']?></p> 
+        <p><?= nl2br($linha['conto']) ?></p>
     </div>
     </div>
 
     <p style="text-align:center">Você chegou ao fim dessa história. Que tal ver o que mais tem de especial no seu feed? <a class="a" href="index.php">Vamos!</a></p>
-<?php include 'includes/footer.php'?>  

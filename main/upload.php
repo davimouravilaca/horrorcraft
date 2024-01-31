@@ -15,7 +15,7 @@
             </div>
             <div class="form-group">
                 <label for="resenha">Resenha:</label>
-                <input type="text" name="resenha" id="resenha">
+                <input type="text" name="resenha" id="resenha" required>
             </div>
             <!-- TODO Adicionar função de alterar background da historia-->
 

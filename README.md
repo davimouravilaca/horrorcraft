@@ -58,7 +58,6 @@ Por enquanto, se você deseja contribuir de alguma forma, sinta-se livre para ab
 
 ## TODO 🌳
 
-- Ultimas funções do CRUD (Update e delete).
 - Sanitizar inputs contra ataques de injeção SQL e Cross-Site Scripting (XSS). 
 - Sistema de favoritar
 
