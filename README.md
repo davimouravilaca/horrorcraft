@@ -120,14 +120,14 @@ Se você estiver usando Windows basta baixar o Xampp ou o Laragon:
     *XAMPP:*
 
     ```bash
-    git clone https://github.com/davimouravilaca/horrorcraft.git C:\\xampp\\htdocs
+    git clone https://github.com/davimouravilaca/horrorcraft.git C:\\xampp\\htdocs\\horrorcraft
     cd C:\\xampp\\htdocs\\horrorcraft
     ```
     
     *Laragon:*
    
      ```bash
-    git clone https://github.com/davimouravilaca/horrorcraft.git C:\\laragon\\www
+    git clone https://github.com/davimouravilaca/horrorcraft.git C:\\laragon\\www\\horrorcraft
     cd C:\\laragon\\www\\horrorcraft
     ```
 
