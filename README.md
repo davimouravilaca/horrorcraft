@@ -117,10 +117,20 @@ Se você estiver usando Windows basta baixar o Xampp ou o Laragon:
 
     **Para Windows:**
 
+    *XAMPP:*
+
     ```bash
     git clone https://github.com/davimouravilaca/horrorcraft.git C:\\xampp\\htdocs
     cd C:\\xampp\\htdocs\\horrorcraft
     ```
+    
+    *Laragon:*
+   
+     ```bash
+    git clone https://github.com/davimouravilaca/horrorcraft.git C:\\laragon\\www
+    cd C:\\laragon\\www\\horrorcraft
+    ```
+
     **Para Linux:**
 
     ```bash
@@ -128,7 +138,7 @@ Se você estiver usando Windows basta baixar o Xampp ou o Laragon:
     cd /var/www/html/horrorcraft
     ```
 
-2. **Configure o banco de Dados MySQL:**
+1. **Configure o banco de Dados MySQL:**
 
     - Crie um banco de dados para o projeto.
 
@@ -142,7 +152,7 @@ Se você estiver usando Windows basta baixar o Xampp ou o Laragon:
     mysql -u seu_usuario -p historias < /horrorcraft/main/database/database.sql
     ```
 
-3. **Configuração do PHP:**
+2. **Configuração do PHP:**
 
     - Edite o arquivo `conexão.php` e insira suas credenciais do banco de dados se necessário.
 
@@ -150,7 +160,7 @@ Se você estiver usando Windows basta baixar o Xampp ou o Laragon:
     - **Usuário:** `admin@example.com`
     - **Senha:** `senha123`    
 
-4. **Execute o Servidor Web:**
+3. **Execute o Servidor Web:**
 
     Inicie o servidor web para servir o projeto.
 
@@ -158,11 +168,11 @@ Se você estiver usando Windows basta baixar o Xampp ou o Laragon:
     sudo systemctl start apache2
     ```
 
-5. **Acesse o Projeto:**
+4. **Acesse o Projeto:**
 
     Abra seu navegador e acesse [http://localhost/horrorcraft/main](http://localhost/horrorcraft/main).
 
-6. **Pronto!**
+5. **Pronto!**
 
     Se tudo houver corrido conforme planejado o sistema agora está instalado e em execução em seu ambiente local.
 
