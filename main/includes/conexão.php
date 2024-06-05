@@ -1,9 +1,14 @@
 <?php 
 $server = "localhost";
-$user = "admin";
+$user = "root";
 $pass = "admin";
 $bd = "historias";
 
-if($conn = mysqli_connect($server, $user, $pass, $bd)){
-};
+// Tenta estabelecer a conexão com o banco de dados
+$conn = mysqli_connect($server, $user, $pass, $bd);
+
+// Verifica se houve erro na conexão
+if (!$conn) {
+    die("Erro de conexão com o banco de dados: " . mysqli_connect_error());
+}
 ?>

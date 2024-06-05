@@ -3,11 +3,11 @@ FROM ubuntu:latest
 
 # Atualize os pacotes e instale o Apache, PHP, MySQL e outras dependências
 RUN apt-get update && \
-    DEBIAN_FRONTEND="noninteractive" apt-get install -y apache2 php8.1 php-mysql mysql-client mysql-server default-mysql-server && \
+    DEBIAN_FRONTEND="noninteractive" apt-get install -y apache2 php8.0 php-mysql mysql-client mysql-server default-mysql-server && \
     rm -rf /var/lib/apt/lists/*
 
 # Habilitar o módulo Apache necessário para o PHP
-RUN a2enmod php8.1
+RUN a2enmod php8.0
 
 # Copie os arquivos da sua aplicação para o diretório de trabalho no contêiner
 COPY . /var/www/html/
@@ -22,4 +22,3 @@ RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 
 # Expor a porta 80 para acessar a aplicação web
 EXPOSE 80
-

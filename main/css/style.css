@@ -135,13 +135,17 @@ footer {
   background-color: #1d1d1d;
   width: 100%;
   height: 100px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 footer p {
+  padding-top: 10px;
   margin: 0;
+}
+
+.footer-link {
+  text-decoration: none; /* Remova o sublinhado */
+  color: inherit; /* Use a cor do texto padrão */
+  cursor: pointer; /* Altere o cursor para indicar que é clicável */
 }
 
 .container {

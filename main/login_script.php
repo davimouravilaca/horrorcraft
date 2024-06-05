@@ -19,6 +19,7 @@ if (isset($entrar)) {
         $_SESSION["usuario"] = $usuario; // Atribui o nome de usuário à sessão
         $_SESSION["login"] = true; // Atribui um marcador de login à sessão
         header("Location: index.php");
+        exit();
     }
 }
 ?>
