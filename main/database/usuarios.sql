@@ -3,5 +3,6 @@ CREATE TABLE IF NOT EXISTS usuarios (
     usuario VARCHAR(255) NOT NULL,
     senha VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL,
-    dataCadastro DATE
+    dataCadastro DATE,
+    favoritadas VARCHAR(1000)
 );

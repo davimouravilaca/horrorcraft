@@ -4,5 +4,6 @@ CREATE TABLE IF NOT EXISTS contos (
     resenha TEXT NOT NULL,
     conto TEXT NOT NULL,
     autor VARCHAR(255) NOT NULL,
-    data_publicacao DATE NOT NULL
+    data_publicacao DATE NOT NULL,
+    curtidas INT NOT NULL DEFAULT 0
 );

@@ -17,12 +17,17 @@
 
 <div class="container">
     <div class="story">
-        <h2 style="display: inline-block;"><?=$linha['titulo']?></h2>
+        <h2><?=$linha['titulo']?></h2>
         <p>by <?=$linha['autor']?></p>
         <p><?= nl2br($linha['conto']) ?></p>
-        <p style="text-align: right;">
-            <a href=""><img style="max-width: 25px; vertical-align: middle;" src="img/like<?php echo $liked ? "on" : "off"; ?>.png" alt="Curtir"></a> Curtir: <?=$linha['curtidas'] ?? 0; ?>
+        <div style="text-align: right;">
+        <p>
+        <form action="curtidas.php" method="post">
+        <input type='hidden' name='id' id='id' value='<?=$linha['id']?>'>
+        <input type="image" style="max-width: 25px; vertical-align: middle;" src="img/like<?php echo $liked ? "on" : "off"; ?>.png" alt="Curtir">
+        Curtidas: <?=$linha['curtidas']; ?>
         </p>
+        </div>
     </div>
 </div>
 
