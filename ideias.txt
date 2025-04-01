@@ -2,4 +2,7 @@ Ideias:
 Mural com melhores histórias da semana elegidas pela comunidade.
 Sistema de Badges com conquistas de aparecer no mural por exemplo entre outras.
 Perfil no instagram onde serão compartilhados resumos dos melhores contos com link pra plataforma etc.
-Temas: Abyssal, Walpurgis 
+Site externo onde são publicados com edição mais profissional e com monetização dos contos (se o usuário permitir).
+Temas: Abyssal, Walpurgis
+Animações: Morcegos voando por cima do site, tumbleweed rolando pelo footer etc
+Sons ambientes tocando bem baixinho que o usuário nem percebe.
