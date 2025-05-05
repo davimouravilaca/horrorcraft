@@ -71,6 +71,8 @@ Por enquanto, se você deseja contribuir de alguma forma, sinta-se livre para ab
 
 Como esta e uma aplicação full-stack que roda em servidor primeiramente é necessário atender alguns pré-requisitos como ter uma solução AMP (Apache, MySQL e PHP) instalada para simular um servidor local na sua máquina.
 
+### Instalacão via Docker ainda em desenvolvimento. 🚧
+
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter os seguintes programas instalado em seu computador:
