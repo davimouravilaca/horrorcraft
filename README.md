@@ -64,7 +64,6 @@ Por enquanto, se você deseja contribuir de alguma forma, sinta-se livre para ab
 ## TODO 🌳
 
 - Sanitizar inputs contra ataques de injeção SQL e Cross-Site Scripting (XSS). 
-- Sistema de favoritar.
 - Sistema de coleções, ilustrações etc.
 - Sistema de tags, pesquisa, temas entre outros.
 
