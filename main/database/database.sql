@@ -1,3 +1,6 @@
+CREATE USER 'username'@'localhost' IDENTIFIED BY 'strong password';
+GRANT ALL ON *.* TO 'username'@'localhost';
+
 -- Criar banco de dados se não existir
 CREATE DATABASE IF NOT EXISTS historias;
 

@@ -49,6 +49,8 @@ if ($dadosUsuario) {
 ?>
 <!-- TODO sistema de like e badges-->
 <h3>Histórias Favoritadas: </h3>
+
+
 <h3>Badges Conquistadas: </h3>
 </div>
 

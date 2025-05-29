@@ -1,7 +1,7 @@
 <?php 
 $server = "localhost";
-$user = "root";
-$pass = "admin";
+$user = "username";
+$pass = "strong password";
 $bd = "historias";
 
 // Tenta estabelecer a conexão com o banco de dados
